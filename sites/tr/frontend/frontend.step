@@ -1,0 +1,57 @@
+message <<-MARKDOWN
+
+### Amaç
+
+Hedefimiz sizi HTML, CSS ve JavaScript ile tanıştırmak, web deneyiminin en önemli yapı taşları.
+Kendi hakkınızda temel statik bir web sayfası oluşturacaksınız ve belki webde yayınlayacaksınız.
+Siz;
+
+* Bir içerik hazırlayıp onu **HTML** ile yapı kazandıracaksınız,
+* **CSS** kullanarak içeriğin düzenini ve stilini ayarlayacaksınız,
+* **JavaScript** kullanarak interaktif bilşenler ekleyeceksiniz.
+* Ve isterseniz **git** ile websitenizi GitHub'a yükleyebilirsiniz.
+
+Websitenizin nasıl görüneceğine dair bir taslak:
+
+![screenshot](img/page_sample.jpg)
+
+### Program
+
+* 1-2 saat temel HTML, CSS ve JavaScript ile oynuyoruz
+* 4 saat civarı sayfalarımızı inşa ediyoruz
+
+* İsteğe bağlı: Eğer daha önce GitHub ile çalıştıysanız ve sitenizi Git ve GitHub kullanarak online etmek istiyorsanız, bunun için talimatlarımız var! (Müfredat sitenizi yerel makinede tuttuğunuzu varsayıyor.)
+
+Bu sadece kaba bir ilke, bir emir değil. Bazı adımlarda üstünden bazı adımlarda altından gideceksiniz. Gün sonunda hepsi işe yaracak. :D
+
+### Gereklilikler
+
+Bu araçlar ile çalışacağız:
+
+* [Chrome](https://www.google.com/chrome)
+  (Eğer başka bir tarayıcının Geliştirici Araçları ile tecrübeniz varsa, o da olur.)
+* Kod editörü, seçimize kalmış.
+  [Sublime Text 2](http://www.sublimetext.com/2) popüler ve ücretsiz indirebilirsiniz, ama workshoptan sonra da kullanmak için lisans almalısınız.
+  [Komodo Edit](http://www.activestate.com/komodo-edit) güze açık kaynak bir seçenek, hala bir editöre sahip değilseniz.
+
+GitHub üzerinden yaymak için isteğe bağlı araçlar: 
+
+* Git
+* [GitHub](http://github.com) hesabınız
+
+### Etkili ve verimli çalışmak
+
+Bunları takip etmenizi önemle tavsiye ediyoruz:
+
+* Sıfırdan tarayıcınızı açın yada açık olan tüm pencereleri gizleyin.
+  * Bir pencerede iki sekme açın.
+    * Biri bu içerik için
+    * Biri uygulamanızı çalıştırmak için.
+* Yazı Editörünüzü açın ve _asla kapatmayın_. Siz vazgeçenlerden değilsiniz.
+* Fazladan bütün uygulamaları gizleyin. Twitter'ı, Mesaj uygulamalarını ve diğer tüm dikkat dağıtıcıları kapatın.
+
+Etkileşimde olduğunuz şeyleri ne kadar gizlerseniz, bunların arasından gitgel yaparak harcadığınız zamanı azaltırsınız. Tarayıcınızda açık 50 sekme hem kafa karıştırıcı hem zaman kaybı.
+
+MARKDOWN
+
+next_step 'introduction_to_html'

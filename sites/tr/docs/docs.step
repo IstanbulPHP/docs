@@ -1,0 +1,40 @@
+message <<MARKDOWN
+![PHPBridge Logo](/img/phpbridge-logo.png)
+
+Bu site [PHPWomen](http://phpwomen.org) tarafından sürdürülmektedir. Eğer geliştirilebilecek birşeyler bulursanız, lütfen bir [pull request](https://github.com/phpbridge/docs) oluşturun yada GitHub Issues aracılığı ile (teknik bilgi gerektirmez) [bize not bırakın](https://github.com/phpbridge/docs/issues/new)  .
+MARKDOWN
+
+site_desc 'installfest', <<-MARKDOWN
+Bilgisayarınıza PHP kurmak için talimatlar. PHP Workshop'ına katılmadan önce bunları halletmeniz gerekir.
+MARKDOWN
+
+site_desc 'intro-to-php', <<-MARKDOWN
+Klasik PHPBridge müfredatı (Suggestotron). Adım adım bir PHP uygulaması yapmanızı sağlar, her seferinde bir satır.
+MARKDOWN
+
+site_desc 'frontend', <<-MARKDOWN
+Yeni başlayanlar için HTML + CSS. Bir websitesi oluşturun, sunucu gerekmez.
+MARKDOWN
+
+message <<MARKDOWN
+# PHPBridge müredatı ile ilgili SSS
+
+### PHPBridge müfredatlarını kendi etkinliğimde kullanabilir miyim?
+Herkes bu siteyi kullanabilir! Site Creative Commons lisansı ([CC-BY,  specifically](http://creativecommons.org/licenses/by/3.0/)) altındadır, yani paylaşabilir, değiştirebilir yada içeriğimizi ticari olarak kullanabilirsiniz. Aslında, [RailsBridge](http://railsbridge.org) tarafından yapılan harika işi temel alıyoruz.
+
+Hafifçe farklar: Eğer bir etkinlik organize ediyor ve PHPBridge Workshop olarak adlandırmak istiyorsanız, sadece iki isteğimiz var:
+
+* Etkinliğe katılım ücretsiz olmalı.
+* Etkinlik, teknolojiyi daha hoş karşılanır yapmak için çalışmalıdır!
+
+Eğer bu iki isteğe uymuyorsanız, siteyi hala kullanabilirsiniz, sadece etkinliğinizi bir PHPBridge Workshop olarak nitelendiremezsiniz.(Örnek olarak "PHPBridge müfredatını içeren PHP Workshop" diyebilirsiniz.)
+
+### Yardım etmek istiyorum ama nasıl bilmiyorum.
+Öncelikle, [bir GitHub hesabı oluştur](https://github.com/). Sonra, fikrin ile [bir issue oluştur](https://github.com/phpbridge/docs/issues). Bunu gerçeğe dönüştürmenize yardım edeceğiz (Bizim yüce hedeflerimize uygun olduğunu varsayarak :D).
+
+Neyin üzerinde çalışacağını bilmiyorsan? [Issue listesinden](https://github.com/phpbridge/docs/issues) fikir edinebilirsin.
+
+
+### PHPBridge hakkında farklı sorularım var.
+Bize [Twitter'dan @phpbridge](http://twitter.com/phpbridge) yada e-posta ile <hello@phpwomen.org> ulaşabilirsiniz.
+MARKDOWN

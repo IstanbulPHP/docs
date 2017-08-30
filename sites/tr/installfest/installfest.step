@@ -1,0 +1,53 @@
+message <<-MD
+  Mac yada Windows üzerinde Vagrant, VirtualBox ve PHPBridge sanal makinesinin adım adım kurulum talimatları.
+  Başlangıçta [PHPBridge Workshopları](http://phpbridge.org) geliştirildi, bu topluluk destekli açık kaynaklı dökümantasyon projesidir.
+  Katkıda bulunmak isterseniz, herhangi bir sayfanın sağ üst köşesindeki [git] linkine tıklayarak GitHub üzerinden değişikliğinizi gönderebilirsiniz. 
+MD
+
+step "Kurulum Şenliğine Hazırlık" do
+  message <<-MARKDOWN
+
+
+## Getirmeniz gerekenler:
+
+* **Dizüstü bilgisayarınız.** Çalışan bir wifi bağlantısına ve tarayıcıya ihtiyacınız olacak.
+  * Microsoft® Windows (Vista, 7, or 8), Mac OS X, ve Ubuntu Linux için güncel sürümler. Hepsi desteklenmektedir.
+* **Dizüstü bilgisayarınızın güç kablosu**
+
+## Getirmenizde fayda var:
+
+* Not defteri ve kalem
+* Uzatma kablosu
+* Anahtarlı uzatma kablosu
+* Atıştırmalıklar
+
+  MARKDOWN
+end
+
+step "Panik Yok!" do
+  message <<-MARKDOWN
+    Bu talimatlar yabancı bir dildeymiş gibi görünüyor olabilir, ama: 
+    **panik yok!** Workshop sonunda bunların ne olduğunu ve nasıl kullanıldığını öğrenmiş olacaksınız.
+  MARKDOWN
+end
+
+step "Read the Overview" do
+  message <<-MARKDOWN
+
+Bu araçları kuracaksınız:
+
+* Vagrant
+* VirtualBox
+* Sublime Text 3
+
+Sanal makine bunları içerecek:
+
+* PHP 5.5
+* MySQL 5.5
+* composer
+* psysh
+
+  MARKDOWN
+end
+
+next_step "choose_your_operating_system"
